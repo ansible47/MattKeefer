@@ -1,0 +1,1167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	margin:0px;
+}
+
+a{
+	border:none;
+}
+.container-all{
+	position:relative;
+	margin-left:0px;
+	margin-right:0px;
+	height:1412px;
+	width:1478px;
+}
+
+.background{
+	position:absolute;
+	left:0px;
+	}
+.whitebox{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:0px;
+	width:900px;
+	height:480px;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	}
+.blackframe{
+	position:absolute;
+	top:-9px;
+	left:-9px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:0px;
+	width:900px;
+	height:480px;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+	}
+.whiteboxlong{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:-200px;
+	width:900px;
+	height:980px;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	}
+.whiteboxlong_frame{
+	position:absolute;
+	left:-9px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:-200px;
+	width:900px;
+	height:980px;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+	}
+.boxcontents{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:120px;
+	width:896px;
+	height:477px;
+	}
+.greyrule{
+	position:absolute;
+	top:98px;
+	}
+.greyrule_press{
+	position:absolute;
+	top:0px;
+	}
+.logo{
+	position:absolute;
+	top:30px;
+	left:118px;
+	}
+.logo_features{
+	position:absolute;
+	top:430px;
+	left:618px;
+	}
+.logo_press{
+	position:absolute;
+	top:-60px;
+	left:118px;
+	}
+
+	
+	/*About page*/
+	
+.bio_pic{
+	position:absolute;
+	width:216px;
+	height:216px;
+	top:82px;
+	left:90px;
+	border:1px solid grey;
+	}
+.bio_text{
+	position:absolute;
+	width:216px;
+	height:216px;
+	top:60px;
+	left:313px;
+	}
+.resume_link{
+	position:absolute;
+	width:216px;
+	height:216px;
+	top:315px;
+	left:323px;
+	}
+.email_link{
+	position:absolute;
+	width:216px;
+	height:216px;
+	top:347px;
+	left:323px;
+	}
+.twitter_link{
+	position:absolute;
+	width:216px;
+	height:216px;
+	top:377px;
+	left:323px;
+	}
+.Menu_home_mattkeefer{
+	position:absolute;
+	top:218px;
+	left:107px;
+	}
+.Menu_home_about{
+	position:absolute;
+	top:263px;
+	left:107px;
+	}
+.Menu_home_features{
+	position:absolute;
+	top:263px;
+	left:254px;
+	}
+.Menu_home_interviews{
+	position:absolute;
+	top:308px;
+	left:107px;
+	}
+.Menu_home_reviews{
+	position:absolute;
+	top:346px;
+	left:107px;
+	}
+.Menu_home_blog{
+	position:absolute;
+	top:346px;
+	left:287px;
+	}
+
+.filmstrip{
+	position:absolute;
+	top:111px;
+	left:118px;
+	width:700px;
+	heignt:100px;
+	}
+.greenbox{
+	position:absolute;
+	
+	}
+.brownbox{
+	position:absolute;
+	margin-left:110px;
+	}
+.yellowbox{
+	position:absolute;
+	margin-left:220px;
+	}
+	
+.redbox{
+	position:absolute;
+	margin-left:330px;
+	}
+	
+.bluebox{
+	position:absolute;
+	margin-left:440px;
+	}
+.brownbox2{
+	position:absolute;
+	margin-left:550px;
+	}
+.blurbs{
+	position:absolute;
+	top:278px;
+	left:298px;
+	width:700px;
+	heignt:100px;
+	}
+
+
+.download{
+	position:absolute;
+	top:427px;
+	left:132px;
+	}
+
+	
+	
+	
+	/* features page*/
+
+.Menu_features_mattkeefer{
+	position:absolute;
+	top:-65px;
+	left:825px;
+	}
+.Menu_features_about{
+	position:absolute;
+	top:-110px;
+	left:27px;
+	}
+.Menu_features_features{
+	position:absolute;
+	top:-110px;
+	left:679px;
+	}
+.Menu_features_interviews{
+	position:absolute;
+	top:-65px;
+	left:26px;
+	}
+.Menu_features_reviews{
+	position:absolute;
+	top:-110px;
+	left:168px;
+	}
+.Menu_features_blog{
+	position:absolute;
+	top:-68px;
+	left:266px;
+	}
+
+.features_thumbnails{
+	position:absolute;
+	top:111px;
+	left:118px;
+	width:700px;
+	heignt:100px;
+	}
+.features_square_pirates{
+	position:absolute;
+	top:-100px;
+	left:-80px;
+	}
+.features_square_folkfest{
+	position:absolute;
+	top:-100px;
+	left:50px;
+	}
+.features_square_tallships{
+	position:absolute;
+	top:-100px;
+	left:180px;
+	}
+.features_square_squiggy{
+	position:absolute;
+	top:-100px;
+	left:310px;
+	}
+.features_square_geek{
+	position:absolute;
+	top:-100px;
+	left:440px;
+	}
+.features_square_apples{
+	position:absolute;
+	top:-100px;
+	left:570px;
+	}
+.features_square_grand{
+	position:absolute;
+	top:30px;
+	left:-80px;
+	}
+.features_square_mensa{
+	position:absolute;
+	top:30px;
+	left:50px;
+	}
+.features_square_etiquette{
+	position:absolute;
+	top:30px;
+	left:180px;
+	}
+.features_square_dreads{
+	position:absolute;
+	top:30px;
+	left:310px;
+	}
+	
+.features_square_ladies{
+	position:absolute;
+	top:30px;
+	left:440px;
+	}
+.features_square_beard{
+	position:absolute;
+	top:30px;
+	left:570px;
+	}
+.features_square_scrabble{
+	position:absolute;
+	top:160px;
+	left:-80px;
+	}
+.features_square_shakespeare{
+	position:absolute;
+	top:160px;
+	left:50px;
+	}
+/*about page*/
+
+.Menu_about_about{
+	position:absolute;
+	top:-110px;
+	left:735px;
+	}
+.Menu_about_features{
+	position:absolute;
+	top:-110px;
+	left:31px;
+	}
+.Menu_about_reviews{
+	position:absolute;
+	top:-110px;
+	left:226px;
+	}
+
+
+/*article magnify pages*/
+	
+.pirate_article{
+	position:absolute;
+	width:600px;
+	height:346px;
+	top:70px;
+	left:143px;
+	border:1px solid grey;
+	}
+.download_pirate{
+	position:absolute;
+	top:70px;
+	left:110px;
+	}
+.click_pirate{
+	position:absolute;
+	top:70px;
+	left:123px;
+	}
+.folkfest_article{
+	position:absolute;
+	width:648px;
+	height:671px;
+	top:50px;
+	left:123px;
+	border:1px solid grey;
+	}
+.download_folkfest{
+	position:absolute;
+	top:50px;
+	left:90px;
+	}
+.click_folkfest{
+	position:absolute;
+	top:50px;
+	left:103px;
+	}
+.tallships_article{
+	position:absolute;
+	width:648px;
+	height:854px;
+	top:40px;
+	left:113px;
+	border:1px solid grey;
+	}
+.download_tallships{
+	position:absolute;
+	top:40px;
+	left:81px;
+	}
+.click_tallships{
+	position:absolute;
+	top:40px;
+	left:94px;
+	}
+.squiggy_article{
+	position:absolute;
+	width:432px;
+	height:845px;
+	top:30px;
+	left:233px;
+	border:1px solid grey;
+	}
+.download_squiggy{
+	position:absolute;
+	top:30px;
+	left:197px;
+	}
+.click_squiggy{
+	position:absolute;
+	top:30px;
+	left:210px;
+	}
+.geek_article{
+	position:absolute;
+	width:720px;
+	height:419px;
+	top:30px;
+	left:73px;
+	border:1px solid grey;
+	}
+.download_geek{
+	position:absolute;
+	top:30px;
+	left:41px;
+	}
+.click_geek{
+	position:absolute;
+	top:30px;
+	left:54px;
+	}
+.apples_article{
+	position:absolute;
+	width:576px;
+	height:619px;
+	top:20px;
+	left:153px;
+	border:1px solid grey;
+	}
+.download_apples{
+	position:absolute;
+	top:20px;
+	left:121px;
+	}
+.click_apples{
+	position:absolute;
+	top:20px;
+	left:134px;
+	}
+.grand_article{
+	position:absolute;
+	width:432px;
+	height:767px;
+	top:20px;
+	left:228px;
+	border:1px solid grey;
+	}
+.download_grand{
+	position:absolute;
+	top:20px;
+	left:195px;
+	}
+.click_grand{
+	position:absolute;
+	top:20px;
+	left:208px;
+	}
+.mensa_article{
+	position:absolute;
+	width:432px;
+	height:855px;
+	top:20px;
+	left:228px;
+	border:1px solid grey;
+	}
+.download_mensa{
+	position:absolute;
+	top:20px;
+	left:195px;
+	}
+.click_mensa{
+	position:absolute;
+	top:20px;
+	left:208px;
+	}
+.beard_article{
+	position:absolute;
+	width:612px;
+	height:346px;
+	top:70px;
+	left:143px;
+	border:1px solid grey;
+	}
+.download_beard{
+	position:absolute;
+	top:70px;
+	left:110px;
+	}
+.click_beard{
+	position:absolute;
+	top:70px;
+	left:123px;
+	}
+.etiquette_article{
+	position:absolute;
+	width:360px;
+	height:925px;
+	top:20px;
+	left:274px;
+	border:1px solid grey;
+	}
+.download_etiquette{
+	position:absolute;
+	top:20px;
+	left:240px;
+	}
+.click_etiquette{
+	position:absolute;
+	top:20px;
+	left:253px;
+	}
+.dreads_article{
+	position:absolute;
+	width:576px;
+	height:937px;
+	top:20px;
+	left:153px;
+	border:1px solid grey;
+	}
+.download_dreads{
+	position:absolute;
+	top:20px;
+	left:121px;
+	}
+.click_dreads{
+	position:absolute;
+	top:20px;
+	left:134px;
+	}
+.ladies_article{
+	position:absolute;
+	width:432px;
+	height:868px;
+	top:20px;
+	left:227px;
+	border:1px solid grey;
+	}
+.download_ladies{
+	position:absolute;
+	top:20px;
+	left:194px;
+	}
+.click_ladies{
+	position:absolute;
+	top:20px;
+	left:207px;
+	}
+.scrabble_article{
+	position:absolute;
+	width:648px;
+	height:742px;
+	top:20px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_scrabble{
+	position:absolute;
+	top:20px;
+	left:88px;
+	}
+.click_scrabble{
+	position:absolute;
+	top:20px;
+	left:101px;
+	}
+.shakespeare_article{
+	position:absolute;
+	width:576px;
+	height:536px;
+	top:20px;
+	left:160px;
+	border:1px solid grey;
+	}
+.download_shakespeare{
+	position:absolute;
+	top:20px;
+	left:128px;
+	}
+.click_shakespeare{
+	position:absolute;
+	top:20px;
+	left:141px;
+	}
+	 
+/* interviews page*/
+
+.Menu_interviews_mattkeefer{
+	position:absolute;
+	top:-65px;
+	left:825px;
+	}
+.Menu_interviews_about{
+	position:absolute;
+	top:-110px;
+	left:27px;
+	}
+.Menu_interviews_features{
+	position:absolute;
+	top:-110px;
+	left:175px;
+	}
+.Menu_interviews_interviews{
+	position:absolute;
+	top:-107px;
+	left:642px;
+	}
+.Menu_interviews_reviews{
+	position:absolute;
+	top:-68px;
+	left:26px;
+	}
+.Menu_interviews_blog{
+	position:absolute;
+	top:-68px;
+	left:213px;
+	}
+.interviews_square_meaghan{
+	position:absolute;
+	top:-100px;
+	left:-80px;
+	}
+.interviews_square_avicelia{
+	position:absolute;
+	top:-100px;
+	left:50px;
+	}
+.interviews_square_sonny{
+	position:absolute;
+	top:-100px;
+	left:180px;
+	}
+.interviews_square_cardany{
+	position:absolute;
+	top:-100px;
+	left:310px;
+	}
+.interviews_square_jake{
+	position:absolute;
+	top:-100px;
+	left:440px;
+	}
+.interviews_square_doctor{
+	position:absolute;
+	top:-100px;
+	left:570px;
+	}
+.interviews_square_king{
+	position:absolute;
+	top:30px;
+	left:-80px;
+	}
+.interviews_square_joepug{
+	position:absolute;
+	top:30px;
+	left:50px;
+	}
+.interviews_square_disa{
+	position:absolute;
+	top:30px;
+	left:180px;
+	}
+.interviews_square_deertick{
+	position:absolute;
+	top:30px;
+	left:310px;
+	}
+	
+.interviews_square_dala{
+	position:absolute;
+	top:30px;
+	left:440px;
+	}
+.interviews_square_christian{
+	position:absolute;
+	top:30px;
+	left:570px;
+	}
+.interviews_square_calexico{
+	position:absolute;
+	top:160px;
+	left:-80px;
+	}
+.interviews_square_thefray{
+	position:absolute;
+	top:160px;
+	left:50px;
+	}
+.interviews_square_jeff{
+	position:absolute;
+	top:160px;
+	left:180px;
+	}
+.interviews_square_motion{
+	position:absolute;
+	top:160px;
+	left:310px;
+	}
+.interviews_square_cliffs{
+	position:absolute;
+	top:160px;
+	left:440px;
+	}
+.interviews_square_rules{
+	position:absolute;
+	top:160px;
+	left:570px;
+	}
+.interviews_square_john{
+	position:absolute;
+	top:290px;
+	left:-80px;
+	}
+.blurbs_interviews{
+	position:absolute;
+	top:410px;
+	left:298px;
+	width:700px;
+	heignt:100px;
+	}
+.interviews_square_resin{
+	position:absolute;
+	top:290px;
+	left:50px;
+	}
+.meaghan_article{
+	position:absolute;
+	width:576px;
+	height:698px;
+	top:40px;
+	left:153px;
+	border:1px solid grey;
+	}
+.download_meaghan{
+	position:absolute;
+	top:40px;
+	left:119px;
+	}
+.click_meaghan{
+	position:absolute;
+	top:40px;
+	left:132px;
+	}
+.avicelia_article{
+	position:absolute;
+	width:576px;
+	height:652px;
+	top:40px;
+	left:153px;
+	border:1px solid grey;
+	}
+.download_avicelia{
+	position:absolute;
+	top:40px;
+	left:119px;
+	}
+.click_avicelia{
+	position:absolute;
+	top:40px;
+	left:132px;
+	}
+.sonny_article{
+	position:absolute;
+	width:648px;
+	height:468px;
+	top:40px;
+	left:123px;
+	border:1px solid grey;
+	}
+.download_sonny{
+	position:absolute;
+	top:40px;
+	left:90px;
+	}
+.click_sonny{
+	position:absolute;
+	top:40px;
+	left:103px;
+	}
+.cardany_article{
+	position:absolute;
+	width:576px;
+	height:665px;
+	top:40px;
+	left:158px;
+	border:1px solid grey;
+	}
+.download_cardany{
+	position:absolute;
+	top:40px;
+	left:123px;
+	}
+.click_cardany{
+	position:absolute;
+	top:40px;
+	left:136px;
+	}
+.jake_article{
+	position:absolute;
+	width:648px;
+	height:684px;
+	top:40px;
+	left:123px;
+	border:1px solid grey;
+	}
+.download_jake{
+	position:absolute;
+	top:40px;
+	left:90px;
+	}
+.click_jake{
+	position:absolute;
+	top:40px;
+	left:103px;
+	}
+.doctor_article{
+	position:absolute;
+	width:576px;
+	height:644px;
+	top:40px;
+	left:158px;
+	border:1px solid grey;
+	}
+.download_doctor{
+	position:absolute;
+	top:40px;
+	left:123px;
+	}
+.click_doctor{
+	position:absolute;
+	top:40px;
+	left:136px;
+	}
+.king_article{
+	position:absolute;
+	width:648px;
+	height:552px;
+	top:40px;
+	left:128px;
+	border:1px solid grey;
+	}
+.download_king{
+	position:absolute;
+	top:40px;
+	left:92px;
+	}
+.click_king{
+	position:absolute;
+	top:40px;
+	left:105px;
+	}
+.joepug_article{
+	position:absolute;
+	width:648px;
+	height:516px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_joepug{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_joepug{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.disa_article{
+	position:absolute;
+	width:648px;
+	height:752px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_disa{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_disa{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.deertick_article{
+	position:absolute;
+	width:648px;
+	height:761px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_deertick{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_deertick{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.dala_article{
+	position:absolute;
+	width:648px;
+	height:577px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_dala{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_dala{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.christian_article{
+	position:absolute;
+	width:648px;
+	height:788px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_christian{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_christian{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.calexico_article{
+	position:absolute;
+	width:648px;
+	height:328px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_calexico{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_calexico{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.fray_article{
+	position:absolute;
+	width:432px;
+	height:831px;
+	top:40px;
+	left:240px;
+	border:1px solid grey;
+	}
+.download_fray{
+	position:absolute;
+	top:40px;
+	left:205px;
+	}
+.click_fray{
+	position:absolute;
+	top:40px;
+	left:218px;
+	}
+.jeff_article{
+	position:absolute;
+	width:648px;
+	height:447px;
+	top:40px;
+	left:120px;
+	border:1px solid grey;
+	}
+.download_jeff{
+	position:absolute;
+	top:40px;
+	left:87px;
+	}
+.click_jeff{
+	position:absolute;
+	top:40px;
+	left:100px;
+	}
+.motion_article{
+	position:absolute;
+	width:648px;
+	height:588px;
+	top:40px;
+	left:125px;
+	border:1px solid grey;	
+	}
+.download_motion{
+	position:absolute;
+	top:40px;
+	left:90px;
+	}
+.click_motion{
+	position:absolute;
+	top:40px;
+	left:103px;
+	}
+.cliffs_article{
+	position:absolute;
+	width:648px;
+	height:548px;
+	top:40px;
+	left:125px;
+	border:1px solid grey;
+	}
+.download_cliffs{
+	position:absolute;
+	top:40px;
+	left:90px;
+	}
+.click_cliffs{
+	position:absolute;
+	top:40px;
+	left:103px;
+	}
+.rules_article{
+	position:absolute;
+	width:648px;
+	height:606px;
+	top:40px;
+	left:125px;
+	border:1px solid grey;
+	}
+.download_rules{
+	position:absolute;
+	top:40px;
+	left:90px;
+	}
+.click_rules{
+	position:absolute;
+	top:40px;
+	left:103px;
+	}
+.john_article{
+	position:absolute;
+	width:432px;
+	height:843px;
+	top:40px;
+	left:230px;
+	border:1px solid grey;
+	}
+.download_john{
+	position:absolute;
+	top:40px;
+	left:195px;
+	}
+.click_john{
+	position:absolute;
+	top:40px;
+	left:208px;
+	}
+.resin_article{
+	position:absolute;
+	width:432px;
+	height:839px;
+	top:40px;
+	left:230px;
+	border:1px solid grey;
+	}
+.download_resin{
+	position:absolute;
+	top:40px;
+	left:195px;
+	}
+.click_resin{
+	position:absolute;
+	top:40px;
+	left:208px;
+	}
+/* reviews page*/
+
+.comingsoon{
+	position:absolute;
+	top:25px;
+	left:-83px;
+	}
+
+/* press page*/
+
+.press_header{
+  position:absolute;
+  top:30px;
+  left:118;
+  
+}
+
+.text{
+ font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  
+}
+
+.bold{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight:600;
+}
+
+.extra{
+   font-family: 'Source Sans Pro', sans-serif;
+  font-weight:600; 
+}
+
+h1,h2,h3,h4{
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-weight:400; 
+  
+}
+
+h3{
+ text-align:justify; 
+}
+
+
+  
